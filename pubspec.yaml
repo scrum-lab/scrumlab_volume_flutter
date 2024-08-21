@@ -1,0 +1,21 @@
+
+name: scrumlab_volume
+description: Volume plugin to control device VOLUME for Android. Pull request for IOS implementation is welcome. 
+version: 2.0.1
+homepage: https://github.com/scrum-lab/scrumlab_volume_flutter.git
+
+environment:
+  sdk: ">=2.12.0 <4.0.0"
+  flutter: ">=1.10.0"
+dependencies:
+  flutter:
+    sdk: flutter
+    
+  scrumlab_system_shortcuts: ^2.1.0
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: br.com.scrumlab.scrumlab_volume
+        pluginClass: ScrumlabVolumePlugin

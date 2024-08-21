@@ -1,0 +1,25 @@
+
+name: scrumlab_volume_example
+description: Demonstrates how to use the volume plugin.
+publish_to: 'none'
+
+environment:
+  sdk: ">=2.12.0 <4.0.0"
+  flutter: ">=1.10.0"
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+    
+  cupertino_icons: any
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  scrumlab_volume:
+    path: ../
+
+flutter:
+  uses-material-design: true
